@@ -16,5 +16,18 @@ int main() {
     cout << setprecision(15) << "An example of a double is: " << pi << ", which remembers more decimal places than a float.";
     // this tells precision to print up to 15 decimal places, so cout doesn't round it for printing
 
+    cout << "Now I will demonstrate boolean and char variables.";
+
+    bool valid = true;
+    bool not_valid = false; 
+    // printing these gives either 1 (true) or false (0)
+
+    char letter = 'A';
+
+    cout << "If a boolean variable is true it prints: " << valid << endl;
+    cout << "If a boolean variable is false it prints: " << not_valid << endl;
+
+    cout << "A character example is: " << letter << endl;
+
     return 0;
 }
